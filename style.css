@@ -46,7 +46,7 @@ body {
     display: block;
     font-weight: bold;
     color: #dd8028;
-    padding: 12px;
+    padding: 14px;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ body {
     font-size: 200%;
     display: inline;
     float: left;
-    padding: 2px;
+    padding: 4px;
     margin: auto;
 }
 
@@ -65,7 +65,7 @@ body {
 
 /* Intro Page */
 #intro {
-    height: 400px;
+    height: 600px;
     background: url('./img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg') no-repeat center center/cover;
 }
 
