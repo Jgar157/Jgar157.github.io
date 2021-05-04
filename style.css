@@ -1,0 +1,91 @@
+/* Resetting the whole page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Stops padding from adding to width of a box*/
+}
+
+/* Utilities */
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Stuff */
+#navbar {
+    background: #85DCBB;
+    color: #dd8028;
+    overflow: auto;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    font-weight: bold;
+    color: #dd8028;
+    padding: 12px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 200%;
+    display: inline;
+    float: left;
+    padding: 2px;
+    margin: auto;
+}
+
+#navbar .logo:hover,
+#navbar ul li a:hover {
+    background-color: 	#64af92;
+}
+
+/* Intro Page */
+#intro {
+    height: 400px;
+    background: url('./img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg') no-repeat center center/cover;
+}
+
+#intro .container {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center; 
+    padding: 120px;
+}
+
+#intro .container #title{
+    font-size: 42px;
+    margin-top: 10px;
+    color: #dd8028;
+}
+
+#intro .container p {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
