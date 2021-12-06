@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Utility */
+
+/* White Text */
+.white-text {
+    color: #CCC;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
+/* Body */
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body .flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Intro */
+body section#intro {
+    background: #222;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section#intro #intro-container {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 70%;
+
+
+}
+
+section#intro #intro-container .intro-item {
+    display: flex;
+    margin: 0;
+    height: 90%;
+    width: 45%;
+}
+
+section#intro #intro-container #intro-1{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+section#intro #intro-container #intro-2{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Intro Text */
+section#intro h1 {
+    font-size: 64px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+/* Intro Ul, Li */
+section#intro ul {
+    width: 80%;
+    font-size: 32px;
+}
+section#intro li {
+    list-style: none;
+    width: 100%;
+    line-height: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
